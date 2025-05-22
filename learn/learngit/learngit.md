@@ -14,6 +14,8 @@ git commit -m"添加了一个readme.txt文件"   //-m后输入说明
 #添加远程仓库from github
 #首先在github上创建仓库
 #要在本地生成密钥，然后再github上保存密钥，才可以互认
+ ssh-keygen -t rsa -C "youremail@example.com"
+ 
 #关联远程库
 git remote add origin git@github.com:simengpippo/A.git
 #本地库和远程库的名字并不需要一致，可以理解问本地库的.git文件与远程库的.git文件关联
